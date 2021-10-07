@@ -1,0 +1,12 @@
+name: osmnx-examples
+channels:
+  - conda-forge
+dependencies:
+  - osmnx=1.1.1
+  - python-igraph
+  - ipywidgets
+  - matplotlib
+  - numpy
+  - pip
+  - pip:
+    - nbinteract
