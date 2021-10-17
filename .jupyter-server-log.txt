@@ -42,3 +42,56 @@
 TermSocket.open: 1
 not able to serialize: expected string or bytes-like object
 TermSocket.open: Opened 1
+[W 2021-10-17 14:59:10.833 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-17 14:59:10.833 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-17 14:59:10.833 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-17 14:59:10.834 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-17 14:59:10.834 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-17 14:59:10.834 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-17 14:59:10.834 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-17 14:59:10.834 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-10-17 14:59:10.834 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-10-17 14:59:10.834 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-17 14:59:10.834 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-17 14:59:10.834 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-10-17 14:59:10.843 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2021-10-17 14:59:10.843 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 14:59:10.850 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 14:59:10.852 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 14:59:10.853 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 14:59:10.853 NotebookApp] Jupyter Notebook 6.3.0 is running at:
+[I 14:59:10.853 NotebookApp] http://jupyter-sannehombroek-2dstreetcolors-2dsgqw9qu4:8888/user/sannehombroek-streetcolors-sgqw9qu4/?token=...
+[I 14:59:10.853 NotebookApp]  or http://127.0.0.1:8888/user/sannehombroek-streetcolors-sgqw9qu4/?token=...
+[I 14:59:10.853 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 14:59:10.857 NotebookApp] No web browser found: could not locate runnable browser.
+[I 14:59:13.695 NotebookApp] 302 GET /user/sannehombroek-streetcolors-sgqw9qu4/ (10.0.22.13) 0.800000ms
+[I 14:59:13.857 NotebookApp] 302 GET /user/sannehombroek-streetcolors-sgqw9qu4/?token=wqHyVrwySCuKD96p7ahUjA (92.109.76.41) 0.900000ms
+[I 14:59:13.996 NotebookApp] 301 GET /user/sannehombroek-streetcolors-sgqw9qu4/lab/?token=wqHyVrwySCuKD96p7ahUjA (92.109.76.41) 1.370000ms
+[I 14:59:16.161 NotebookApp] 301 GET /user/sannehombroek-streetcolors-sgqw9qu4/static/favicons/favicon.ico (92.109.76.41) 0.400000ms
+[I 2021-10-17 14:59:18.280 LabApp] Build is up to date
+[W 14:59:19.460 NotebookApp] 404 GET /user/sannehombroek-streetcolors-sgqw9qu4/terminals/websocket/1 (92.109.76.41) 38.650000ms referer=None
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 14:59:25.468 NotebookApp] Notebook Streetcolors_for_online.ipynb is not trusted
+[I 14:59:26.284 NotebookApp] Kernel started: 8f291b5a-e763-424f-995e-def67eeeb1fe, name: python3
+[I 14:59:26.285 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 14:59:26.285 NotebookApp] Culling kernels even with connected clients
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 14:59:27.164 NotebookApp] Starting buffering for 8f291b5a-e763-424f-995e-def67eeeb1fe:cb9f1794-fef3-431f-831e-d9b4ce506189
+[I 14:59:27.605 NotebookApp] 301 GET /user/sannehombroek-streetcolors-sgqw9qu4/static/favicons/favicon-busy-1.ico (92.109.76.41) 0.560000ms
+[W 15:00:09.916 NotebookApp] 404 GET /user/sannehombroek-streetcolors-sgqw9qu4/api/contents/streetcolors.ipynb?1634482810208 (92.109.76.41): No such file or directory: streetcolors.ipynb
+[W 15:00:09.916 NotebookApp] No such file or directory: streetcolors.ipynb
+[W 15:00:09.917 NotebookApp] 404 GET /user/sannehombroek-streetcolors-sgqw9qu4/api/contents/streetcolors.ipynb?1634482810208 (92.109.76.41) 1.470000ms referer=https://hub.gke2.mybinder.org/user/sannehombroek-streetcolors-sgqw9qu4/lab/tree/Streetcolors_for_online.ipynb
+[W 15:00:10.366 NotebookApp] 404 GET /user/sannehombroek-streetcolors-sgqw9qu4/api/contents/streetcolors.ipynb?content=0&1634482810658 (92.109.76.41): No such file or directory: streetcolors.ipynb
+[W 15:00:10.366 NotebookApp] No such file or directory: streetcolors.ipynb
+[W 15:00:10.367 NotebookApp] 404 GET /user/sannehombroek-streetcolors-sgqw9qu4/api/contents/streetcolors.ipynb?content=0&1634482810658 (92.109.76.41) 1.740000ms referer=https://hub.gke2.mybinder.org/user/sannehombroek-streetcolors-sgqw9qu4/lab/tree/Streetcolors_for_online.ipynb
+[I 15:00:10.522 NotebookApp] Uploading file to /streetcolors.ipynb
+[W 15:00:10.523 NotebookApp] Notebook streetcolors.ipynb is not trusted
+[W 15:00:10.714 NotebookApp] 409 PATCH /user/sannehombroek-streetcolors-sgqw9qu4/api/contents/streetcolors.ipynb?1634482811004 (92.109.76.41): File already exists: Streetcolors_for_online.ipynb
+[W 15:00:10.714 NotebookApp] File already exists: Streetcolors_for_online.ipynb
+[W 15:00:10.715 NotebookApp] 409 PATCH /user/sannehombroek-streetcolors-sgqw9qu4/api/contents/streetcolors.ipynb?1634482811004 (92.109.76.41) 1.240000ms referer=https://hub.gke2.mybinder.org/user/sannehombroek-streetcolors-sgqw9qu4/lab/tree/Streetcolors_for_online.ipynb
+[I 15:00:18.125 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
