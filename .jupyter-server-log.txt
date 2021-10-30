@@ -324,3 +324,97 @@ TermSocket.open: Opened 1
 TermSocket.open: 1
 not able to serialize: expected string or bytes-like object
 TermSocket.open: Opened 1
+[W 2021-10-30 21:43:57.849 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-30 21:43:57.849 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-30 21:43:57.849 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-30 21:43:57.849 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-30 21:43:57.849 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-30 21:43:57.849 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-30 21:43:57.849 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-30 21:43:57.850 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-10-30 21:43:57.850 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-10-30 21:43:57.850 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-30 21:43:57.850 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-30 21:43:57.850 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-10-30 21:43:57.861 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2021-10-30 21:43:57.861 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 21:43:57.871 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 21:43:57.874 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 21:43:57.875 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 21:43:57.875 NotebookApp] Jupyter Notebook 6.3.0 is running at:
+[I 21:43:57.875 NotebookApp] http://jupyter-sannehombroek-2dstreetcolors-2dvg9gc6fy:8888/user/sannehombroek-streetcolors-vg9gc6fy/?token=...
+[I 21:43:57.875 NotebookApp]  or http://127.0.0.1:8888/user/sannehombroek-streetcolors-vg9gc6fy/?token=...
+[I 21:43:57.875 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:43:57.880 NotebookApp] No web browser found: could not locate runnable browser.
+[I 21:43:58.102 NotebookApp] 302 GET /user/sannehombroek-streetcolors-vg9gc6fy/ (10.0.22.13) 1.040000ms
+[I 21:43:58.682 NotebookApp] 302 GET /user/sannehombroek-streetcolors-vg9gc6fy/?token=bMJp8LZgQH-XS4ICFfu59A (92.109.76.41) 0.940000ms
+[I 21:43:58.822 NotebookApp] 301 GET /user/sannehombroek-streetcolors-vg9gc6fy/lab/?token=bMJp8LZgQH-XS4ICFfu59A (92.109.76.41) 1.730000ms
+[I 21:44:05.811 NotebookApp] 301 GET /user/sannehombroek-streetcolors-vg9gc6fy/static/favicons/favicon.ico (92.109.76.41) 0.690000ms
+[I 2021-10-30 21:44:09.362 LabApp] Build is up to date
+[W 21:44:11.293 NotebookApp] 404 GET /user/sannehombroek-streetcolors-vg9gc6fy/terminals/websocket/1 (92.109.76.41) 52.280000ms referer=None
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 21:44:18.384 NotebookApp] Notebook streetcolors_with_hidden_tag.ipynb is not trusted
+[I 21:44:19.505 NotebookApp] Kernel started: 8eb2b5ba-26c6-4ffe-8b6f-f71ada8f9783, name: python3
+[I 21:44:19.506 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 21:44:19.506 NotebookApp] Culling kernels even with connected clients
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 21:44:20.584 NotebookApp] Starting buffering for 8eb2b5ba-26c6-4ffe-8b6f-f71ada8f9783:0bd71c8a-6526-4837-af72-34abcfdc89d5
+[I 21:44:20.991 NotebookApp] 301 GET /user/sannehombroek-streetcolors-vg9gc6fy/static/favicons/favicon-busy-1.ico (92.109.76.41) 1.060000ms
+[W 21:44:57.944 NotebookApp] Notebook streetcolors_hidden_tag.ipynb is not trusted
+[I 21:44:58.519 NotebookApp] Kernel started: d2012307-4c36-4d60-b102-4896e6f9cf1d, name: python3
+[W 21:45:11.967 NotebookApp] 404 GET /user/sannehombroek-streetcolors-vg9gc6fy/api/contents/streetcolors_hidden_tag_city.ipynb?1635630311627 (92.109.76.41): No such file or directory: streetcolors_hidden_tag_city.ipynb
+[W 21:45:11.967 NotebookApp] No such file or directory: streetcolors_hidden_tag_city.ipynb
+[W 21:45:11.968 NotebookApp] 404 GET /user/sannehombroek-streetcolors-vg9gc6fy/api/contents/streetcolors_hidden_tag_city.ipynb?1635630311627 (92.109.76.41) 1.950000ms referer=https://hub.gke2.mybinder.org/user/sannehombroek-streetcolors-vg9gc6fy/lab/tree/streetcolors_hidden_tag.ipynb
+[W 21:45:12.632 NotebookApp] 404 GET /user/sannehombroek-streetcolors-vg9gc6fy/api/contents/streetcolors_hidden_tag_city.ipynb?content=0&1635630312285 (92.109.76.41): No such file or directory: streetcolors_hidden_tag_city.ipynb
+[W 21:45:12.632 NotebookApp] No such file or directory: streetcolors_hidden_tag_city.ipynb
+[W 21:45:12.632 NotebookApp] 404 GET /user/sannehombroek-streetcolors-vg9gc6fy/api/contents/streetcolors_hidden_tag_city.ipynb?content=0&1635630312285 (92.109.76.41) 1.690000ms referer=https://hub.gke2.mybinder.org/user/sannehombroek-streetcolors-vg9gc6fy/lab/tree/streetcolors_hidden_tag.ipynb
+[I 21:45:12.787 NotebookApp] Uploading file to /streetcolors_hidden_tag_city.ipynb
+[W 21:45:13.037 NotebookApp] 409 PATCH /user/sannehombroek-streetcolors-vg9gc6fy/api/contents/streetcolors_hidden_tag_city.ipynb?1635630312676 (92.109.76.41): File already exists: streetcolors_hidden_tag.ipynb
+[W 21:45:13.038 NotebookApp] File already exists: streetcolors_hidden_tag.ipynb
+[W 21:45:13.038 NotebookApp] 409 PATCH /user/sannehombroek-streetcolors-vg9gc6fy/api/contents/streetcolors_hidden_tag_city.ipynb?1635630312676 (92.109.76.41) 1.460000ms referer=https://hub.gke2.mybinder.org/user/sannehombroek-streetcolors-vg9gc6fy/lab/tree/streetcolors_hidden_tag.ipynb
+[I 21:47:13.379 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[W 21:55:19.507 NotebookApp] Culling 'idle' kernel 'python3' (8eb2b5ba-26c6-4ffe-8b6f-f71ada8f9783) with 1 connections due to 658 seconds of inactivity.
+[I 21:55:19.508 NotebookApp] Kernel shutdown: 8eb2b5ba-26c6-4ffe-8b6f-f71ada8f9783
+[W 21:56:19.507 NotebookApp] Culling 'idle' kernel 'python3' (d2012307-4c36-4d60-b102-4896e6f9cf1d) with 1 connections due to 627 seconds of inactivity.
+[I 21:56:19.507 NotebookApp] Kernel shutdown: d2012307-4c36-4d60-b102-4896e6f9cf1d
+[I 21:57:14.278 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 21:59:14.798 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:01:15.230 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:01:26.573 NotebookApp] Kernel started: 0efa6ff3-b42a-4c64-8f00-c17736560df7, name: python3
+[I 22:03:15.747 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:05:16.175 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:07:16.602 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:09:17.028 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:11:17.550 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:13:17.938 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:15:18.757 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:17:19.452 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:19:20.259 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:21:25.990 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:23:30.153 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:25:32.086 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:27:34.346 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:31:35.559 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:33:39.082 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:35:39.907 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:36:51.436 NotebookApp] Kernel interrupted: 0efa6ff3-b42a-4c64-8f00-c17736560df7
+[I 22:36:56.821 NotebookApp] Kernel interrupted: 0efa6ff3-b42a-4c64-8f00-c17736560df7
+[I 22:37:40.634 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:39:00.043 NotebookApp] Kernel interrupted: 0efa6ff3-b42a-4c64-8f00-c17736560df7
+[I 22:39:41.470 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:41:42.757 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:43:47.108 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:44:14.254 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:46:18.829 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:48:22.871 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:52:52.926 NotebookApp] Kernel restarted: 0efa6ff3-b42a-4c64-8f00-c17736560df7
+[I 22:52:53.248 NotebookApp] Starting buffering for 0efa6ff3-b42a-4c64-8f00-c17736560df7:a7dede1e-b7b0-46e6-b257-e1835cdbb588
+[I 22:52:53.800 NotebookApp] Restoring connection for 0efa6ff3-b42a-4c64-8f00-c17736560df7:a7dede1e-b7b0-46e6-b257-e1835cdbb588
+[I 22:53:01.651 NotebookApp] Saving file at /streetcolors_hidden_tag_city.ipynb
+[I 22:53:06.695 NotebookApp] Starting buffering for 0efa6ff3-b42a-4c64-8f00-c17736560df7:a7dede1e-b7b0-46e6-b257-e1835cdbb588
+[I 22:53:08.822 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
