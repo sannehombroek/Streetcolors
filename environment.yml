@@ -5,3 +5,4 @@ channels:
 dependencies:
   - python=3.8
   - osmnx=1.2
+  - shapely=1.7.1
