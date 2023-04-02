@@ -418,3 +418,64 @@ TermSocket.open: Opened 1
 TermSocket.open: 1
 not able to serialize: expected string or bytes-like object
 TermSocket.open: Opened 1
+Launching jupyter-lab
+[I 2023-04-02 18:43:08.019 ServerApp] jupyter_offlinenotebook | extension was successfully linked.
+[I 2023-04-02 18:43:08.020 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[W 2023-04-02 18:43:08.023 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-04-02 18:43:08.023 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-04-02 18:43:08.023 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-04-02 18:43:08.023 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-04-02 18:43:08.023 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-04-02 18:43:08.027 ServerApp] jupyterlab | extension was successfully linked.
+[W 2023-04-02 18:43:08.030 NotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2023-04-02 18:43:08.030 NotebookApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2023-04-02 18:43:08.030 NotebookApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-04-02 18:43:08.030 NotebookApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-04-02 18:43:08.030 NotebookApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-04-02 18:43:08.035 ServerApp] nbclassic | extension was successfully linked.
+[I 2023-04-02 18:43:08.036 ServerApp] Writing Jupyter server cookie secret to /home/jovyan/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2023-04-02 18:43:08.589 ServerApp] nteract_on_jupyter | extension was found and enabled by notebook_shim. Consider moving the extension to Jupyter Server's extension paths.
+[I 2023-04-02 18:43:08.589 ServerApp] nteract_on_jupyter | extension was successfully linked.
+[I 2023-04-02 18:43:08.590 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-04-02 18:43:08.630 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-04-02 18:43:08.631 ServerApp] jupyter_offlinenotebook | extension was successfully loaded.
+[I 2023-04-02 18:43:08.632 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2023-04-02 18:43:08.633 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2023-04-02 18:43:08.633 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 2023-04-02 18:43:08.638 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-04-02 18:43:08.648 ServerApp] nbclassic | extension was successfully loaded.
+[I 2023-04-02 18:43:08.648 ServerApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 2023-04-02 18:43:08.650 ServerApp] nteract_on_jupyter | extension was successfully loaded.
+[I 2023-04-02 18:43:08.650 ServerApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 2023-04-02 18:43:08.651 ServerApp] Serving notebooks from local directory: /home/jovyan
+[I 2023-04-02 18:43:08.651 ServerApp] Jupyter Server 1.23.4 is running at:
+[I 2023-04-02 18:43:08.651 ServerApp] http://jupyter-sannehombroek-2dstreetcolors-2d1w8tlruf:8888/user/sannehombroek-streetcolors-1w8tlruf/lab?token=...
+[I 2023-04-02 18:43:08.651 ServerApp]  or http://127.0.0.1:8888/user/sannehombroek-streetcolors-1w8tlruf/lab?token=...
+[I 2023-04-02 18:43:08.651 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2023-04-02 18:43:08.656 ServerApp] No web browser found: could not locate runnable browser.
+[I 2023-04-02 18:43:11.275 ServerApp] 302 GET /user/sannehombroek-streetcolors-1w8tlruf/ (10.0.5.33) 0.68ms
+[I 2023-04-02 18:43:11.464 ServerApp] 302 GET /user/sannehombroek-streetcolors-1w8tlruf/?token=BnstXB-JTTiuV_uHZK2q6w (185.214.99.191) 0.70ms
+[I 2023-04-02 18:43:25.036 ServerApp] New terminal with automatic name: 1
+[I 2023-04-02 18:43:25.039 LabApp] Build is up to date
+[W 2023-04-02 18:43:30.651 ServerApp] Notebook streetcolors_with_hidden_tag.ipynb is not trusted
+[I 2023-04-02 18:43:31.855 ServerApp] Kernel started: d43df3aa-2641-4e05-b4e2-f3da28187d41
+[I 2023-04-02 18:43:31.855 ServerApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 2023-04-02 18:43:31.855 ServerApp] Culling kernels even with connected clients
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 2023-04-02 18:43:32.574 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f7386f01c50>
+[I 2023-04-02 18:43:32.896 ServerApp] Starting buffering for d43df3aa-2641-4e05-b4e2-f3da28187d41:1f882a8d-49ec-42b9-9d65-850edb3077db
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8ad1e7e6-bab1-48e7-9ae8-3c3760c1ccd1
+[I 2023-04-02 18:44:25.805 ServerApp] Kernel interrupted: d43df3aa-2641-4e05-b4e2-f3da28187d41
+[I 2023-04-02 18:45:16.304 ServerApp] Kernel interrupted: d43df3aa-2641-4e05-b4e2-f3da28187d41
+[W 2023-04-02 18:45:25.296 ServerApp] Notebook streetcolors_with_hidden_tag.ipynb is not trusted
+[W 2023-04-02 18:45:25.936 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f7384ed3b10>
+[I 2023-04-02 18:47:25.774 ServerApp] Saving file at /streetcolors_with_hidden_tag.ipynb
+[W 2023-04-02 18:47:38.532 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f7386f4fe90>
+[I 2023-04-02 18:47:46.993 ServerApp] Kernel interrupted: d43df3aa-2641-4e05-b4e2-f3da28187d41
+[I 2023-04-02 18:47:57.257 ServerApp] Kernel restarted: d43df3aa-2641-4e05-b4e2-f3da28187d41
+[W 2023-04-02 18:47:58.022 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f738929f7d0>
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8debfaec-ee7b-4486-b57e-df0073934a1c
+[I 2023-04-02 18:48:04.511 ServerApp] Saving file at /streetcolors_with_hidden_tag.ipynb
